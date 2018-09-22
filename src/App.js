@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import Omkar from "./components";
+import AllComponents from "./components";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         Yo buddy!
-        <Omkar/>
+        <AllComponents />
       </div>
     );
   }
