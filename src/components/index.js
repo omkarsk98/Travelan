@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export default class AllComponents extends React.Component{
+export default class AllComponents extends React.Component {
   render() {
-    return(
+    return (
       <div>
-        Hello!
-        <br/>
+        Hello! This is Omkar class!
+        <br />
         All Components here!
       </div>
     );
