@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import Omkar from "./components";
+import React from 'react';
+import { Header } from 'semantic-ui-react';
 
-class App extends Component {
+export default class twoOptionMenu extends React.Component {
   render() {
     return (
-      <div className="App">
-        
+      <div>
+        <Header size="huge">Experience Plan</Header>
       </div>
     );
   }
 }
-
-export default App;
