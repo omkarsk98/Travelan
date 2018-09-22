@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Omkar from "./components";
+import Omkar from "./components/Omkar";
 
 class App extends Component {
   render() {

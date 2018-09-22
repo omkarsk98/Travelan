@@ -7,6 +7,7 @@ export default class AllComponents extends React.Component {
         Hello! This is Omkar class!
         <br />
         All Components here!
+        
       </div>
     );
   }
