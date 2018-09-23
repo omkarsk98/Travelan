@@ -26,7 +26,7 @@ export default class AllComponents extends React.Component {
   };
   render() {
     return (
-      <Segment color='green' style={{margin:50}} raised stacked>
+      <Segment color='green' style={{margin:50}}>
         <h2>Travelan</h2>
         <h3 style={{ marginTop: 0 }}>Be your own travel agent!</h3>
         {(() => {
@@ -48,7 +48,7 @@ export default class AllComponents extends React.Component {
             );
           }
 
-          if (this.state.activeRoute === "3") {
+          if (this.state.activeRoute === "3" || this.state.activeRoute === "5" || this.state.activeRoute === "8" || this.state.activeRoute === "11" || this.state.activeRoute === "13" || this.state.activeRoute === "15") {
             return (
               <div>
                 <Book
@@ -64,18 +64,6 @@ export default class AllComponents extends React.Component {
             return (
               <div>
                 <AccomodationPlan toNextState={this.adjustState} /> {/* 4 */}
-              </div>
-            );
-          }
-
-          if (this.state.activeRoute === "5") {
-            return (
-              <div>
-                <Book
-                  toNextState={this.adjustState}
-                  currentState={this.state.activeRoute}
-                />{" "}
-                {/* 5 */}
               </div>
             );
           }
@@ -96,18 +84,6 @@ export default class AllComponents extends React.Component {
             );
           }
 
-          if (this.state.activeRoute === "8") {
-            return (
-              <div>
-                <Book
-                  toNextState={this.adjustState}
-                  currentState={this.state.activeRoute}
-                />{" "}
-                {/* 8 */}
-              </div>
-            );
-          }
-
           if (this.state.activeRoute === "9") {
             return (
               <div>
@@ -124,34 +100,10 @@ export default class AllComponents extends React.Component {
             );
           }
 
-          if (this.state.activeRoute === "11") {
-            return (
-              <div>
-                <Book
-                  toNextState={this.adjustState}
-                  currentState={this.state.activeRoute}
-                />{" "}
-                {/* 11 */}
-              </div>
-            );
-          }
-
           if (this.state.activeRoute === "12") {
             return (
               <div>
                 <ChaffeurDrivenPlan toNextState={this.adjustState} /> {/* 12 */}
-              </div>
-            );
-          }
-
-          if (this.state.activeRoute === "13") {
-            return (
-              <div>
-                <Book
-                  toNextState={this.adjustState}
-                  currentState={this.state.activeRoute}
-                />{" "}
-                {/* 13 */}
               </div>
             );
           }
@@ -165,18 +117,6 @@ export default class AllComponents extends React.Component {
             );
           }
 
-          if (this.state.activeRoute === "15") {
-            return (
-              <div>
-                <Book
-                  toNextState={this.adjustState}
-                  currentState={this.state.activeRoute}
-                />{" "}
-                {/* 15 */}
-              </div>
-            );
-          }
-
           if (this.state.activeRoute === "16") {
             return (
               <div>
@@ -185,6 +125,7 @@ export default class AllComponents extends React.Component {
             );
           }
         })()}
+        
         <Message floating color='olive' style={{padding:10, paddingBottom:30}}>
           <b>This is a complete customised Iternary System.</b>
           <br />
