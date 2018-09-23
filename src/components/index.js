@@ -35,6 +35,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="2"){
             console.log("State 2");
             return (
@@ -43,6 +44,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="3"){
             return (
               <div>
@@ -50,6 +52,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="4"){
             return (
               <div>
@@ -57,6 +60,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="5"){
             return (
               <div>
@@ -64,6 +68,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="6"){
             return (
               <div>
@@ -71,6 +76,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="7"){
             return (
               <div>
@@ -78,6 +84,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="8"){
             return (
               <div>
@@ -85,6 +92,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="9"){
             return (
               <div>
@@ -92,6 +100,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="10"){
             return (
               <div>
@@ -99,6 +108,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="11"){
             return (
               <div>
@@ -106,6 +116,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="12"){
             return (
               <div>
@@ -113,6 +124,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="13"){
             return (
               <div>
@@ -120,6 +132,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="14"){
             return (
               <div>
@@ -127,6 +140,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+
           if (this.state.activeRoute==="15"){
             return (
               <div>
@@ -134,6 +148,7 @@ export default class AllComponents extends React.Component {
               </div>
             );
           }
+          
           if (this.state.activeRoute==="16"){
             return (
               <div>

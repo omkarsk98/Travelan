@@ -18,19 +18,19 @@ export default class GuidePlan extends React.Component {
           <Header as="h1">Guide Plan</Header>
           <List as="ol">
             <List.Item as="li">
-              Mohan Shekhawat <Icon name="arrow alternate circle down" />
+              Mohan Shekhawat  
               <Button positive type="submit">
                 Book
               </Button>
             </List.Item>
             <List.Item as="li">
-              Rohan Kumawat <Icon name="arrow alternate circle down" />
+              Rohan Kumawat  
               <Button positive type="submit">
                 Book
               </Button>
             </List.Item>
             <List.Item as="li">
-              Sohan Airawat <Icon name="arrow alternate circle down" />
+              Sohan Airawat  
               <Button positive type="submit">
                 Book
               </Button>
