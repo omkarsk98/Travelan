@@ -18,12 +18,17 @@ export default class ExperiencePlan extends React.Component {
       <div style={style}>
         <Form>
           <Header as="h1">Experience Plan</Header>
-          <Button size="massive" onClick={this.self}>
-            Self Discover
-          </Button>
-          <Button size="massive" onClick={this.help}>
-            Need Help
-          </Button>
+          <b>Do I need a guide?</b>
+          <br />
+          <Button.Group>
+            <Button size="medium" color="green" onClick={this.self}>
+              Self Discover
+            </Button>
+            <Button.Or />
+            <Button size="medium" color="blue" onClick={this.help}>
+              Need Help
+            </Button>
+          </Button.Group>
         </Form>
       </div>
     );

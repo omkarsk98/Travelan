@@ -26,6 +26,7 @@ export default class Book extends React.Component {
       <div style={style}>
         <Form onSubmit={this.handleSubmit}>
           <h2>Booking Confirmation</h2>
+          <b>Yay! I saved money! I am rich!</b>
           <h4>{title}</h4>
           <b>Price : {price}</b>
           <br />

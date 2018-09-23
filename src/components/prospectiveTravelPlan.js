@@ -16,6 +16,7 @@ export default class ProspectiveTravelPlan extends React.Component {
       <div style={style}>
         <Form onSubmit={this.handleSubmit}>
         <Header as='h1'>Prospective Travel Plan</Header>
+        <b>Wow! I can travel by my own will!</b>
         <Grid>
             <Grid.Row>
                 <Grid.Column mobile={8}>

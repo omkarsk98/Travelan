@@ -18,12 +18,17 @@ export default class LocalTransportPlan extends React.Component {
       <div style={style}>
         <Form>
           <Header as="h1">Local Transport Plan</Header>
-          <Button size="massive" onClick={this.self}>
+          <b>I'll ride by myself!</b>
+          <br/>
+          <Button.Group>
+          <Button size="medium" color="green" onClick={this.self}>
             Self Driven
           </Button>
-          <Button size="massive" onClick={this.driver}>
+          <Button.Or/>
+          <Button size="medium" color="blue" onClick={this.driver}>
             Chaffeur Driven
           </Button>
+          </Button.Group>
         </Form>
       </div>
     );

@@ -16,6 +16,7 @@ export default class ExperiencePlan extends React.Component {
       <div style={style}>
         <Form onSubmit={this.handleSubmit}>
           <Header as="h1">Accomodation Plan</Header>
+          <b>Wow! My couch is so near by!</b>
           <Grid>
             <Grid.Row>
                 <Grid.Column mobile={8}>

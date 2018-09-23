@@ -45,15 +45,15 @@ export default class WelcomePage extends React.Component {
           <br />
           <Form.Field>
             <label>From</label>
-            <Select placeholder="Travle from.." options={from} />
+            <Select placeholder="Travel from.." options={from} required/>
           </Form.Field>
           <Form.Field>
             <label>To</label>
-            <Select placeholder="Travel to.." options={to} />
+            <Select placeholder="Travel to.." options={to} required/>
           </Form.Field>
           <Form.Field>
             <label>Number of days</label>
-            <Input placeholder="number of days..." />
+            <Input placeholder="number of days..." required/>
           </Form.Field>
           <b>Places to visit is this city.</b>
           <List style={alignLeft}>

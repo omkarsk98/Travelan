@@ -20,6 +20,7 @@ export default class TravelPlan extends React.Component {
       <div>
         <Form style={style} onSubmit={this.handleSubmit}>
           <h2>Travel Plan</h2>
+          <b>Cheers! All your travel options are at your fingertips!</b>
           {/* div for Flights */}
           <div>
             <h3>Flight</h3>
