@@ -2,8 +2,7 @@ import React from "react";
 import { Button, Form } from "semantic-ui-react";
 const style = {
   padding: 20,
-  margin: 20,
-  border: "solid black 2px"
+  margin: 20
 };
 
 var previousState = "";
@@ -15,8 +14,7 @@ export default class Book extends React.Component {
     if (goToState === 11) this.props.toNextState(String(14));
     else {
       goToState = goToState + 1;
-      if (goToState === 16) this.props.toNextState(String(15));
-      else this.props.toNextState(String(goToState));
+      this.props.toNextState(String(goToState));
     }
   };
   render() {

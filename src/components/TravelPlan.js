@@ -3,8 +3,7 @@ import { Button, Grid, Form } from "semantic-ui-react";
 
 const style = {
   padding: 20,
-  margin: 20,
-  border: "solid black 2px"
+  margin: 20
 };
 
 const bottomPadding = {
@@ -18,7 +17,7 @@ export default class TravelPlan extends React.Component {
   };
   render() {
     return (
-      <div style={style}>
+      <div>
         <Form style={style} onSubmit={this.handleSubmit}>
           <h2>Travel Plan</h2>
           {/* div for Flights */}

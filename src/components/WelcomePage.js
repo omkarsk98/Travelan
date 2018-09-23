@@ -11,8 +11,7 @@ import {
 
 const style = {
   padding: 20,
-  margin: 20,
-  border:"solid black 2px"
+  margin: 20
 };
 
 const alignLeft = {

@@ -9,6 +9,7 @@ import GuidePlan from "./guidePlan";
 import SelfDrivenPlan from "./selfDrivenPlan";
 import ChaffeurDrivenPlan from "./chaffeurDrivenPlan";
 import ProspectiveTravelPlan from "./prospectiveTravelPlan";
+import ThankYou from './thankYou';
 
 export default class AllComponents extends React.Component {
   constructor(props) {
@@ -130,6 +131,13 @@ export default class AllComponents extends React.Component {
             return (
               <div>
                 <Book toNextState={this.adjustState} currentState={this.state.activeRoute}/> {/* 15 */}
+              </div>
+            );
+          }
+          if (this.state.activeRoute==="16"){
+            return (
+              <div>
+                <ThankYou />
               </div>
             );
           }

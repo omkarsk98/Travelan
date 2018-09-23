@@ -1,6 +1,11 @@
 import React from "react";
 import { Form, Header, List, Icon, Button } from "semantic-ui-react";
 
+const style = {
+  padding: 20,
+  margin: 20
+};
+
 export default class ExperiencePlan extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
@@ -8,7 +13,7 @@ export default class ExperiencePlan extends React.Component {
   };
   render() {
     return (
-      <div>
+      <div style={style}>
         <Form onSubmit={this.handleSubmit}>
           <Header as="h1">Accomodation Plan</Header>
           <List as="ol">
