@@ -129,7 +129,7 @@ export default class AllComponents extends React.Component {
         <Message floating color='olive' style={{padding:10, paddingBottom:30}}>
           <b>This is a complete customised Iternary System.</b>
           <br />
-          Dependency on strnagers regarding fooding and accomodation removed!
+          Dependency on strangers regarding fooding and accomodation removed!
           <br />
           Compare the prices of all the local products here. Don't get
           overcharged.
