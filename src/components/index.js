@@ -10,6 +10,7 @@ import SelfDrivenPlan from "./selfDrivenPlan";
 import ChaffeurDrivenPlan from "./chaffeurDrivenPlan";
 import ProspectiveTravelPlan from "./prospectiveTravelPlan";
 import ThankYou from "./thankYou";
+import { Segment, Message } from "semantic-ui-react";
 
 export default class AllComponents extends React.Component {
   constructor(props) {
@@ -25,7 +26,7 @@ export default class AllComponents extends React.Component {
   };
   render() {
     return (
-      <div>
+      <Segment color='green' style={{margin:50}} raised stacked>
         <h2>Travelan</h2>
         <h3 style={{ marginTop: 0 }}>Be your own travel agent!</h3>
         {(() => {
@@ -184,7 +185,7 @@ export default class AllComponents extends React.Component {
             );
           }
         })()}
-        <div style={{padding:10, paddingBottom:30}}>
+        <Message floating color='olive' style={{padding:10, paddingBottom:30}}>
           <b>This is a complete customised Iternary System.</b>
           <br />
           Dependency on strnagers regarding fooding and accomodation removed!
@@ -193,8 +194,8 @@ export default class AllComponents extends React.Component {
           overcharged.
           <br />
           Know authentic food and handicrafts.
-        </div>
-      </div>
+        </Message>
+      </Segment>
     );
   }
 }
