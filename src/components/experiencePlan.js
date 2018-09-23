@@ -1,13 +1,25 @@
-import React from 'react';
-import { Header, Button } from 'semantic-ui-react';
+import React from "react";
+import { Header, Button, Form } from "semantic-ui-react";
 
 export default class ExperiencePlan extends React.Component {
+  self = () => {
+    this.props.toNextState("9");
+  };
+  help = () => {
+    this.props.toNextState("7");
+  };
   render() {
     return (
       <div>
-        <Header as='h1'>Experience Plan</Header>
-        <Button size='massive'>Self Discover</Button>
-        <Button size='massive'>Need Help</Button>
+        <Form>
+          <Header as="h1">Experience Plan</Header>
+          <Button size="massive" onClick={this.self}>
+            Self Discover
+          </Button>
+          <Button size="massive" onClick={this.help}>
+            Need Help
+          </Button>
+        </Form>
       </div>
     );
   }

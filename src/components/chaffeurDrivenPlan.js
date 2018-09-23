@@ -1,10 +1,15 @@
 import React from 'react';
-import { Header, List, Icon, Button } from 'semantic-ui-react';
+import { Header, Form, List, Icon, Button } from 'semantic-ui-react';
 
 export default class ChaffeurDrivenPlan extends React.Component {
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.props.toNextState("13");
+  }
   render() {
     return (
       <div>
+        <Form onSubmit={this.handleSubmit}>
         <Header as='h1'>Chaffeur Driven Plan</Header>
         <List as='ol'>
             <List.Item as='li'>Dev Pari Travels <Icon name='arrow alternate circle down' /><Button positive>Book</Button></List.Item>
@@ -17,6 +22,7 @@ export default class ChaffeurDrivenPlan extends React.Component {
             <List.Item as='li'>Flexible Quotation Rates</List.Item>
             <List.Item as='li'>Quick and Secure Payments</List.Item>
         </List>
+        </Form>
       </div>
     );
   }

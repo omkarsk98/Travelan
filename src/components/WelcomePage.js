@@ -31,10 +31,17 @@ const to = [
 ];
 
 export default class WelcomePage extends React.Component {
+  constructor(props){
+    super(props);
+  }
+  handleSubmit = (event)=>{
+    event.preventDefault();
+    this.props.toNextState("2");
+  }
   render() {
     return (
       <div>
-        <Form style={style}>
+        <Form style={style} onSubmit={this.handleSubmit}>
           <h2>Wish to travel?</h2>
           <br />
           <Form.Field>
