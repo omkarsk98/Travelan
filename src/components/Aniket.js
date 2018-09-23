@@ -6,6 +6,7 @@ import GuidePlan from './guidePlan';
 import SelfDrivenPlan from './selfDrivenPlan';
 import ChaffeurDrivenPlan from './chaffeurDrivenPlan';
 import ProspectiveTravelPlan from './prospectiveTravelPlan';
+import ThankYou from './thankYou';
 
 export default class Aniket extends React.Component{
   render(){
@@ -18,6 +19,7 @@ export default class Aniket extends React.Component{
           <SelfDrivenPlan />
           <ChaffeurDrivenPlan />
           <ProspectiveTravelPlan />
+          <ThankYou />
       </div>
     );
   }
