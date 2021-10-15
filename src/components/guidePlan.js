@@ -1,3 +1,7 @@
+/*Guide Plan Page
+*For displaying Guide's plan
+*
+*/
 import React from "react";
 import { Header, Grid, Button, Form } from "semantic-ui-react";
 

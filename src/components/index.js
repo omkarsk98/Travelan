@@ -29,6 +29,7 @@ export default class AllComponents extends React.Component {
       <Segment color='green' style={{margin:50}}>
         <h2>Travelan</h2>
         <h3 style={{ marginTop: 0 }}>Be your own travel agent!</h3>
+        //For Displaying active route
         {(() => {
           if (this.state.activeRoute === "1") {
             console.log("State 1");
