@@ -2,8 +2,8 @@ import React from 'react';
 import { Header } from 'semantic-ui-react';
 
 const style = {
-  padding: 20,
-  margin: 20
+  padding: 25,
+  margin: 25
 };
 
 export default class ThankYou extends React.Component{
